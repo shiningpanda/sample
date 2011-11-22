@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import distribute_setup
-distribute_setup.use_setuptools()
+import ez_setup
+ez_setup.use_setuptools()
 from setuptools import setup, find_packages
 
 setup(
